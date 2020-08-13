@@ -1,8 +1,8 @@
 # Create an arbitrary local resource
-provider "ibm" {  
-  #ibmcloud_api_key = var.ibmcloud_api_key
-  #generation = local.generation
-  version    = "== 1.4"
+terraform {
+  required_providers {
+    ibm = "== 1.9.0"
+  }
 }
 
 data "template_file" "test" {
