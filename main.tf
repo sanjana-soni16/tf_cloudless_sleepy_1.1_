@@ -2,7 +2,7 @@
 provider "ibm" {  
   #ibmcloud_api_key = var.ibmcloud_api_key
   #generation = local.generation
-  version    = "~> 1.5.3"
+  version    = "== 1.5.3"
 }
 
 data "template_file" "test" {
