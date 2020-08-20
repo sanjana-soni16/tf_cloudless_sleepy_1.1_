@@ -1,5 +1,5 @@
 terraform {
   required_providers {
-    ibm = "== 1.4.0"
+    ibm = "== 1.11.0"
   }
 }
