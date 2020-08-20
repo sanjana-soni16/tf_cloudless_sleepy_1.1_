@@ -19,5 +19,5 @@ variable "sleepy_time" {
 description = "How long our local-exec will take a nap."
 default = 0
 }
-
+variable "ibmcloud_api_key" {}
 
