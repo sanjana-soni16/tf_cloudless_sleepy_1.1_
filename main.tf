@@ -1,8 +1,4 @@
 # Create an arbitrary local resource
-provider "ibm" {  
- version    = ">= 1.7.1"
-}
-
 data "template_file" "test" {
   template = "Hello, I am a template. My sample_var value = $${sample_var}"
 
