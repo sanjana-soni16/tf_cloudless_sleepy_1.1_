@@ -1,3 +1,5 @@
-provider "ibm" {  
- version    = ">= 1.7.1"
+terraform {
+  required_providers {
+    ibm = "== 1.9.0"
+  }
 }
