@@ -1,6 +1,6 @@
 # Create an arbitrary local resource
 provider "ibm" {  
-  version    = "== 1.9.0"
+  version    = ">= 1.5.3"
 }
 
 data "template_file" "test" {
