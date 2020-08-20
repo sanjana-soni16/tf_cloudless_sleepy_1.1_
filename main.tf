@@ -1,6 +1,12 @@
 # Create an arbitrary local resource
-provider "ibm" {  
-  version    = ">= 1.5.3"
+#provider "ibm" {  
+ # version    = ">= 1.5.3"
+#}
+
+terraform {
+  required_providers {
+    ibm = "== 1.9.0"
+  }
 }
 
 data "template_file" "test" {
