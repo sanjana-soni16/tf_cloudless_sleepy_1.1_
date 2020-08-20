@@ -1,7 +1,7 @@
 # Create an arbitrary local resource
 terraform {
   required_providers {
-    ibm = "== 1.5.3"
+    ibm = "~> 1.5.3"
   }
 }
 
