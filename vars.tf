@@ -2,7 +2,7 @@
 
 variable "x" {
 description = "A x to pass to the template."
-default = "hello"
+default = "hello amy"
 }
 
 variable "z" {
