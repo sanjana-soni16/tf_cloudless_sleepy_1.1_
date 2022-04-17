@@ -2,14 +2,14 @@
 data "template_file" "test" {
   template = "Hello, I am a template. My sample_var value = $${sample_var}"
 
-  vars {
-    sample_var = "${var.x}"
+  vars = {
+    sample_var = var.x
   }
 }
 
 resource "null_resource" "sleep" {
   triggers {
-    uuid = "${uuid()}"
+    uuid = uuid()
   }
 
   provisioner "local-exec" {
