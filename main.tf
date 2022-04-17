@@ -8,7 +8,7 @@ data "template_file" "test" {
 }
 
 resource "null_resource" "sleep" {
-  triggers {
+  triggers = {
     uuid = uuid()
   }
 
